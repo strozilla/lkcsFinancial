@@ -1,0 +1,387 @@
+
+@media screen and (max-width: 480px) {
+    #topNav ul {
+        height: 40px;
+    }
+    
+    #topNav li:first-child, #appLogo span:first-child {
+        display: none;
+    }
+    
+    #appLogo {
+        width: 115px;
+    }
+    
+   #mainNav {
+    background: #026966 !important;
+    color: #ffff;
+    position: relative;
+    height: 90px;
+}
+
+#mainNav::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: px;
+    background: #026966;
+    transform-origin: 0 100%;
+    transform: skewY(3deg);
+    padding-top: 70px;
+    z-index: -1;
+}
+
+#mainNav img {
+    margin-left: 55%;
+}
+
+#mainNav a {
+    color: #ffff;
+}
+
+    #mainNav div {
+        padding: 0;
+    }
+    
+    .navbar-toggler {
+        margin-right: 25px !important;
+    }
+
+#mainNavbarNav {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+#mainNavbarNav li {
+    
+    padding-right: 55px !important;
+}
+    .navbar-collapse ul{
+        margin-top: -40px;
+    }
+    
+    .navbar-collapse ul li{
+        background: #fff;
+        z-index: 10;
+    }
+
+#mainRight {
+    margin: 22px 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+    height: 150px;
+    background: #3C7F78;
+    color: #ffff;
+    text-align: center;
+    z-index: -1;
+}
+    
+#mainRight::after {
+    content: '';
+    position: absolute;
+    width: 110%;
+    margin-top: 140px;
+    margin-left: -45px;
+    background: #3C7F78;
+    transform-origin: 100% 0;
+    transform: skewY(3deg);
+    padding-top: 70px;
+    z-index: -1;
+}
+
+#mainRight a {
+    font-size: 10px;
+    line-height: ;
+}
+    #mainRight Button {
+        margin: 3px auto ;
+    }
+    
+    #gradient {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 80%) !important;
+    width: 100%;
+    height: 200px;
+    z-index: -99;
+    
+}
+
+#banner {
+    margin-top: 135px;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 200px;
+}
+
+#bannerImg {
+    z-index: -100;
+    position: absolute;
+    margin-top: 260px;
+}
+
+#bannerRight {
+    flex-direction: column;
+    margin-top: 10%;
+    align-content: center !important;
+    justify-content: end !important;
+    padding-right: 0;
+    position: absolute;
+    z-index: -98;
+}
+    
+    #apr {
+        height: 270px;
+        margin-top: 10px;
+    }
+    
+    #apr::after {
+     content: '';
+    position: absolute;
+    width: 155%;
+    height: 300px;
+    background: #E5F8FE;
+    transform-origin: 65% 0;
+    transform: skewY(3deg);
+    z-index: -1;
+}
+    
+    #infoGrid {
+        margin-top: -15px;
+    }
+    
+    #infoGrid Button {
+    margin-top: 150px;
+    width: 100%;
+    height: 45px;
+    background-color: #3A7B73;
+    color: #fff;
+    font-size: 15px;
+    font-family: monospace;
+    line-height: normal;
+}
+   
+  #eventsNews::before {
+    content: '';
+    position: absolute;
+    width: 124%;
+    height: 100%;
+    background: linear-gradient(90deg, #464646 50%, #343434 50%);
+    transform-origin: 100% 0;
+    transform: skewY(3deg);
+    z-index: -1;
+    margin-top: -10px;
+}
+
+    #poll {
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    #marketplace::before {
+        content: '';
+        position: absolute;
+        width: 110%;
+        height: 175px;
+        background: #ffff;
+        transform-origin: 0 10;
+        transform: skewY(3deg);
+        margin-left: -250px;
+        margin-top: -15px;
+        z-index: -1;
+    }
+    
+    #marketplace {
+        flex-direction: column;
+        text-align: center;
+        margin: 40px 0;
+        background: #ffff;
+    }
+    
+    #marketplace h4 {
+        color: #3A7B73;
+    }
+    
+    #marketplace p {
+        margin-bottom: 5px;
+    }
+    
+    #marketplace Button {
+        margin-bottom: 10px;
+        background: #3A7B73;
+        color: #ffff;
+        font-family: monospace;
+    }
+    
+    #marketplaceImg {
+        position: absolute;
+        text-align: center;
+        margin-top: -20px;
+        margin-left: 0;
+        z-index: -3;
+    }
+    
+    Footer::before {
+          content: '';
+        position: absolute;
+        width: 110%;
+        height: 40px;
+        background: #026966;
+        transform-origin: 0 10;
+        transform: skewY(3deg);
+        margin-top: -10px;
+        z-index: -1;
+    }
+    
+    Footer {
+        margin-top: 220px;
+        background: #026966;
+        flex-direction: row;
+    }
+    
+    Footer img {
+        padding-top: 25px;
+        padding-right: 15px;
+    }
+    
+    Footer ul {
+        list-style: none;
+        font-size: 10px;
+        width: 100px;
+        text-align: center;
+        padding-left: 0px;
+        color: #ffff;
+        font-weight: 500;
+    }
+    
+    Footer p {
+        color: #ffff;
+        font-size: 10px;
+        font-family: fantasy;
+    }
+    
+    #strozilla {
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #topNav a {
+        font-size: 10px;
+    }
+    
+    #fbLogo {
+        width: 15px;
+        height: 20px;
+        padding: 1px 1px
+    }
+    
+     .navbar-collapse ul{
+        margin-top: -40px;
+    }
+    
+    .navbar-collapse ul li{
+        background: #fff;
+        z-index: 10;
+    }
+    .navbar-toggler-icon {
+        margin-left: ;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #topNav ul{
+     flex-direction: row;
+    }
+    
+    #fbLogo {
+        width: 25px;
+    }
+    
+    .container-fluid {
+        align-items: flex-start !important;
+    }
+    
+    #mainNav img {
+        padding-top: 15px;
+    }
+    
+    #mainRight {
+        padding-top: 0px;
+        padding-left: 1%;
+        padding-right: 0px;
+    }
+    
+    #mainRight a {
+        margin-top: 2px;
+    }
+    
+    #mainNavbarNav li a{
+    color: #015C55 !important;
+    text-align: end;
+    background-color: #ffff;
+}
+     #userBtn, #loginBtn{
+        width: 100px;
+        height: 25px;
+        font-size: 12px;
+    }
+    #gradient {
+        height: 350px;
+    }
+    
+    #bannerRight {
+        ;
+    }
+    
+    #bannerImg {
+        top: 30px;
+    }
+    #bannerRight p {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    #bannerRight Button {
+        width: 150px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 55px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #mainNav img{
+        width: 100px;
+    }
+    
+    #mainRight {
+        padding-left: 10% !important;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1072px) {
+    
+    #mainNavbarNav li {
+        padding-right: 45px !important;
+    }
+    
+    #mainRight {
+   padding-left: 30px;
+}
+
+    #bannerImg {
+        top: 5px;
+    }
+    
+    #gradient {
+        height: 400px;
+    }
+    
+    #eventsNews::before {
+        margin-left: -64px;
+    }
+}
