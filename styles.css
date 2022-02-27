@@ -214,6 +214,10 @@ body {
     padding-top: 115px;
 }
 
+#infoGrid {
+    margin-top: -50px;
+}
+
 #infoGrid div {
     text-align: center;
     padding-left: 0px;
@@ -222,7 +226,6 @@ body {
 
 .topRow, .bottomRow {
     align-items: center !important;
-    margin-top: -45px;
 }
 
 #infoGrid Button {
