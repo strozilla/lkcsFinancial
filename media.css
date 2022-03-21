@@ -38,23 +38,25 @@
 #mainNavbarNav {
     margin-top: 50px;
     margin-left: 10%;
+    width: 5em;
 }
 
 #mainNavbarNav li {
-    
-    padding-right: 55px !important;
+    padding: 0 15px !important;
 }
-    .navbar-collapse ul{
-        margin-top: -40px;
-    }
+
     
     .navbar-collapse ul li{
         background: #fff;
         z-index: 10;
     }
 
+#mainNavbarNav .navbar-nav {
+    width: 0;
+}
+
 #mainRight {
-    margin: 22px 0;
+    margin: 10em 0;
     padding-right: 0;
     padding-left: 0;
     width: 100%;
@@ -83,7 +85,7 @@
 }
 
 #banner {
-    margin-top: 135px;
+    
     margin-bottom: 0px;
     padding: 0px;
     height: 200px;
@@ -110,10 +112,6 @@
         margin-top: 10px;
     }
     
-    #infoGrid {
-        margin-top: -15px;
-    }
-    
     #infoGrid Button {
     margin-top: 150px;
     width: 100%;
@@ -133,6 +131,7 @@
     #marketplace {
         flex-direction: column;
         text-align: center;
+        justify-content: center;
         margin: 40px 0;
         background: #ffff;
     }
@@ -143,6 +142,7 @@
     
     #marketplace p {
         margin-bottom: 5px;
+        color: #fff;
     }
     
     #marketplace Button {
@@ -155,19 +155,16 @@
     #marketplaceImg {
         position: absolute;
         text-align: center;
-        margin-top: -20px;
-        margin-left: 0;
+        margin-left: -15px;
         z-index: -3;
     }
     
     Footer {
-        margin-top: 220px;
         background: #026966;
         flex-direction: row;
     }
     
     Footer img {
-        padding-top: 25px;
         padding-right: 15px;
     }
     
@@ -185,6 +182,13 @@
         color: #ffff;
         font-size: 10px;
         font-family: fantasy;
+    }
+
+    #footOne {
+        margin-top: -5em;
+    }
+    #footTwo {
+        margin-left: 2em;
     }
     
     #strozilla {

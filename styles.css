@@ -195,7 +195,7 @@ body {
 }
 
 .aprPerc {
-    font-size: 32px;
+    font-size: clamp(20px, 32px);
     color: #026966;
 }
 
@@ -234,7 +234,7 @@ body {
     height: 45px;
     background-color: #3A7B73;
     color: #fff;
-    font-size: 30px;
+    font-size: clamp(14px, 30px);
     font-family: monospace;
     line-height: normal;
 }
@@ -293,16 +293,15 @@ body {
 }
 
 #eventsNews {
-    height: 300px;
-    margin-top: -50px;
+    min-height: 300px;
+    margin-top: -55px;
     background: linear-gradient(90deg, #464646 50%, #343434 50%);
     color: #ffff;
     clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
 }
 
 #eventsNews .row div {
-    padding-left: 20px;
-    padding-right: 20px !important;
+    padding: 1em 20px;
 }
 
 #poll {
@@ -345,7 +344,7 @@ body {
     }
     
     #marketplaceImg {
-        height: 600px;
+        max-height: 600px;
         overflow: hidden;
         margin-top: -200px;
         margin-left: 55%;
