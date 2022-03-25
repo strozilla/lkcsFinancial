@@ -84,8 +84,13 @@
     
 }
 
+#gradient {
+    height: 250px;
+}
+
 #banner {
-    
+    flex-direction: row;
+    margin-top: -15px;
     margin-bottom: 0px;
     padding: 0px;
     height: 200px;
@@ -95,11 +100,12 @@
     z-index: -100;
     position: absolute;
     margin-top: 260px;
+    width: 100% !important;
 }
 
 #bannerRight {
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 0;
     align-content: center !important;
     justify-content: end !important;
     padding-right: 0;
@@ -109,7 +115,7 @@
     
     #apr {
         height: 270px;
-        margin-top: 10px;
+        margin-top: -80px;
     }
     
     #infoGrid Button {

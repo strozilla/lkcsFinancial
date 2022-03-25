@@ -181,7 +181,7 @@ body {
 #apr {
     height: 250px;
     background-color: #E5F8FE;
-    margin: -55px auto 0 auto;
+    margin: -35px auto 0 auto;
     clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0% 84%);
 }
 
