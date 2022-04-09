@@ -289,6 +289,10 @@
     #bannerImg {
         margin-top: -80px;
     }
+
+    #bannerRight {
+        margin-top: 5rem;
+    }
     #bannerRight p {
         font-size: 35px;
         line-height: 35px;
